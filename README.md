@@ -1,6 +1,6 @@
-# CandorNews
+# Candor News
 
-CandorNews is a news site that provides the latest news and updates across various categories.
+CandorNews is a news site built as a final project for Internet Programing II course
 
 ## Table of Contents
 
