@@ -82,7 +82,7 @@
     $signupEmail = get_safe_value($_POST['signup-email']);
     $signupPassword = get_safe_value($_POST['signup-password']);
 
-    // Creating new password hash using a strong one-way hashing algorithm => CRYPT_BLOWFISH algorithm
+    // Creating new password hash
     $strg_pass = password_hash($signupPassword,PASSWORD_BCRYPT);
     
     // Check Query to check if the email submitted is present or registered already
